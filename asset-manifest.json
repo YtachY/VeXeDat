@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/VeXeDat/static/css/main.4b9b4d23.chunk.css",
+    "main.js": "/VeXeDat/static/js/main.514e54ad.chunk.js",
+    "main.js.map": "/VeXeDat/static/js/main.514e54ad.chunk.js.map",
+    "runtime-main.js": "/VeXeDat/static/js/runtime-main.576510a5.js",
+    "runtime-main.js.map": "/VeXeDat/static/js/runtime-main.576510a5.js.map",
+    "static/js/2.9b21ab3b.chunk.js": "/VeXeDat/static/js/2.9b21ab3b.chunk.js",
+    "static/js/2.9b21ab3b.chunk.js.map": "/VeXeDat/static/js/2.9b21ab3b.chunk.js.map",
+    "index.html": "/VeXeDat/index.html",
+    "static/css/main.4b9b4d23.chunk.css.map": "/VeXeDat/static/css/main.4b9b4d23.chunk.css.map",
+    "static/js/2.9b21ab3b.chunk.js.LICENSE.txt": "/VeXeDat/static/js/2.9b21ab3b.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.576510a5.js",
+    "static/js/2.9b21ab3b.chunk.js",
+    "static/css/main.4b9b4d23.chunk.css",
+    "static/js/main.514e54ad.chunk.js"
+  ]
+}
