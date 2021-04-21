@@ -1,0 +1,648 @@
+@import '../styles/_shared.scss';
+
+.index {
+  background-color: $white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.navbar {
+  padding: 0 184px 0 185px;
+  position: relative;
+}
+.rectangle3 {
+  width: 980px;
+  height: 60px;
+  position: relative;
+}
+.rectangle30 {
+  width: 816px;
+  height: 60px;
+  position: absolute;
+  right: 184px;
+  top: 0;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  left: 185px;
+  bottom: 13px;
+}
+.jamcar {
+  padding: 2px;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  left: 0;
+  top: 4px;
+}
+.group {
+  padding: 6px 14px 7px;
+  position: relative;
+}
+.veXeDat {
+  height: 20px;
+  width: 120px;
+  color: $black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  @include roboto-26-regular;
+}
+.buttonDangNhap {
+  background-color: $dark-slate-blue;
+  border-radius: 4px;
+  padding: 8px 13px;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  right: 184px;
+  top: 14px;
+}
+.group2 {
+  display: flex;
+  align-items: center;
+}
+.groupTwo {
+  margin-right: 6px;
+}
+.dangNhap {
+  color: $white;
+  text-align: center;
+  @include roboto-12-regular;
+}
+.buttonHotline {
+  background-color: $white;
+  padding: 5px 3px 6px 4px;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  right: 305px;
+  top: 12px;
+  border: 1px solid $black;
+}
+.akarIconsphone {
+  margin-right: 3px;
+  padding: 2px;
+  display: flex;
+  align-items: center;
+}
+.hotline {
+  color: $black;
+  text-align: center;
+  @include roboto-16-regular;
+}
+.language {
+  display: flex;
+  align-items: flex-start;
+  position: absolute;
+  right: 424px;
+  top: 18px;
+}
+.rienglishInput {
+  margin-right: 8px;
+  padding: 4px 1px 4px 2px;
+  display: flex;
+  align-items: center;
+}
+.grommetIconslanguage {
+  padding: 1px;
+  display: flex;
+  align-items: center;
+}
+.uuDai304 {
+  color: $black;
+  text-align: center;
+  position: absolute;
+  right: 609px;
+  top: 22px;
+  @include roboto-14-regular;
+}
+.xeLimouse {
+  color: $black;
+  text-align: center;
+  position: absolute;
+  right: 506px;
+  top: 22px;
+  @include roboto-14-regular;
+}
+.quanLyChuyenDi {
+  color: $black;
+  text-align: center;
+  position: absolute;
+  left: 529px;
+  top: 22px;
+  @include roboto-14-regular;
+}
+.landSearch {
+  margin-bottom: 24px;
+  padding: 39px 184px 217px 185px;
+  box-shadow: 0 4px 4px 0 $transparent-black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("https://static.overlay-tech.com/assets/a7d895fe-3e2e-4600-8d3f-3fe29ffb6910.png");
+  background-size: 100% 100%;
+}
+.datSomGiaHoiDealHot304GiamDen {
+  max-width: 712px;
+  color: $dark-magenta;
+  text-align: center;
+  margin-bottom: 18px;
+  text-shadow: 4px 4px 4px $transparent-black;
+  backdrop-filter: blur(4px);
+  @include sofia-51-regular;
+}
+.flexWrapperEight {
+  background-color: $transparent-khaki;
+  padding: 16px 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.veXeDatMlTuotVeTrongTamTayViGi {
+  height: 51px;
+  width: 980px;
+  color: $white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  @include roboto-36-bold;
+}
+.group1 {
+  background-color: $white;
+  margin-bottom: 16px;
+  border-radius: 19px;
+  display: flex;
+  align-items: flex-start;
+}
+.relativeWrapperThree {
+  margin-right: 306px;
+  position: relative;
+}
+.bxbxTransferAlt {
+  background-color: $white;
+  border-radius: 50%;
+  padding: 4.67px 4.66px 5.49px 4.67px;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  right: -17px;
+  top: 11px;
+  border: 1px solid $blue;
+}
+.noiDi {
+  padding: 14px 72px 13px 64px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.psfacebookPlaces {
+  margin-right: 41px;
+  padding: 0.12px 0.06px 1.54px;
+  display: flex;
+  align-items: center;
+}
+.nhaTrang {
+  color: $blue;
+  text-align: center;
+  @include roboto-24-regular;
+}
+.flexWrapperSix {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  right: -306px;
+  top: 0;
+}
+.noiDen {
+  background-color: $transparent-dark-salmon;
+  padding: 14px 81px 13px 68px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.psfacebookPlacesTwo {
+  margin-right: 55px;
+  padding: 0.12px 0.06px 1.54px;
+  display: flex;
+  align-items: center;
+}
+.line1 {
+  width: 1px;
+  height: 44px;
+  position: absolute;
+  left: 0;
+  top: 6px;
+}
+.flexWrapperSeven {
+  margin-right: 1px;
+  position: relative;
+}
+.line2 {
+  width: 1px;
+  height: 30px;
+  position: absolute;
+  left: 0;
+  top: 13px;
+}
+.lich {
+  background-color: $transparent-white;
+  padding: 8px 12px 8px 26px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.icbaselineDateRange {
+  margin-right: 11px;
+  padding: 3.33px 5px 3.34px;
+  display: flex;
+  align-items: center;
+}
+.num02052021 {
+  color: $blue;
+  text-align: center;
+  @include roboto-19-regular;
+}
+.buttonDatChuyen {
+  background-color: $orange;
+  border-radius: 0px 19px 19px 0px;
+  padding: 17px 25px;
+  display: flex;
+  align-items: flex-start;
+}
+.timChuyen {
+  color: $dark-blue;
+  text-align: center;
+  @include roboto-19-bold;
+}
+.group2Two {
+  background-color: $transparent-medium-aquamarine;
+  padding: 0 579px 0 0;
+  display: flex;
+  align-items: flex-start;
+}
+.group4 {
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+}
+.banDatXeDe {
+  color: $white;
+  text-align: center;
+  margin-right: 6px;
+  @include roboto-14-regular;
+}
+.flexWrapperFour {
+  border-radius: 9px;
+  padding: 0 9px 0 18px;
+  display: flex;
+  align-items: center;
+  border: 1px solid $white;
+}
+.duLich {
+  color: $white;
+  text-align: center;
+  @include roboto-14-regular;
+  &:not(:last-of-type) {
+    margin-right: 18px;
+  }
+}
+.flexWrapperFive {
+  margin-right: 15px;
+  padding: 8px 15px;
+  display: flex;
+  align-items: center;
+  border: 1px solid $white;
+}
+.veQue {
+  color: $white;
+  text-align: center;
+  @include roboto-14-regular;
+}
+.group5 {
+  background-color: $white;
+  border-radius: 9px;
+  padding: 9px 11px;
+  display: flex;
+  align-items: center;
+}
+.send {
+  color: $blue;
+  text-align: center;
+  @include roboto-14-regular;
+}
+.body {
+  margin-bottom: 44px;
+  padding: 17px 0 5px;
+  position: relative;
+}
+.uuDaiNoiBat {
+  height: 36px;
+  width: 980px;
+  color: $black;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  left: 0;
+  top: 0;
+  @include roboto-25-regular;
+}
+.group3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: absolute;
+  left: 0;
+  top: 602px;
+}
+.benXeKhach {
+  height: 36px;
+  width: 980px;
+  color: $black;
+  display: flex;
+  align-items: center;
+  margin-bottom: 28px;
+  @include roboto-25-regular;
+}
+.flexWrapperTen {
+  display: flex;
+  align-items: flex-start;
+}
+.rectangle34 {
+  &:not(:last-of-type) {
+    margin-right: 19px;
+  }
+}
+.flexWrapperThree {
+  padding: 39px 0 249px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+}
+.group1Two {
+  margin-bottom: 21px;
+  display: flex;
+  align-items: flex-start;
+}
+.rectangle28 {
+  &:not(:last-of-type) {
+    margin-right: 20px;
+  }
+}
+.rectangle27 {
+  margin-right: 21px;
+}
+.group2Three {
+  padding: 0 0 2px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.group6 {
+  background-color: $white;
+  margin-right: 17px;
+  border-radius: 4px;
+  padding: 20px 12px 28px 20px;
+  display: flex;
+  align-items: flex-start;
+  border: 1px solid $black;
+}
+.groupThree {
+  margin-right: 32px;
+}
+.flexWrapperTwelve {
+  padding: 6px 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.caNhanHoaTimKiem {
+  height: 24px;
+  width: 202px;
+  color: $blue;
+  display: flex;
+  align-items: center;
+  @include roboto-19-regular;
+}
+.noiDung1 {
+  height: 80px;
+  width: 202px;
+  color: $dim-gray;
+  display: flex;
+  align-items: center;
+  @include roboto-11-regular;
+}
+.group7 {
+  background-color: $white;
+  margin-right: 15px;
+  border-radius: 4px;
+  padding: 20px 12px 28px 29px;
+  display: flex;
+  align-items: flex-start;
+  border: 1px solid $black;
+}
+.claritycursorHandClickLine {
+  margin-right: 23px;
+  padding: 0.5px 7.15px 0.27px 4.26px;
+  display: flex;
+  align-items: center;
+}
+.group8 {
+  background-color: $white;
+  border-radius: 4px;
+  padding: 20px 12px 28px 31px;
+  display: flex;
+  align-items: flex-start;
+  border: 1px solid $black;
+}
+.entypoticket {
+  margin-right: 21px;
+  padding: 1.44px;
+  display: flex;
+  align-items: center;
+}
+.footer {
+  padding: 0 0 38px;
+  position: relative;
+}
+.group18 {
+  background-color: $medium-turquoise;
+  padding: 28px 322px 15px;
+  display: flex;
+  align-items: flex-start;
+  position: absolute;
+  left: 0;
+  top: 1128px;
+}
+.congTyTnhhThuongMaiDichVuVeXeDat {
+  text-align: center;
+  color: $black;
+  @include roboto-15-regular;
+}
+.congTyTnhhThuongMaiDichVuVeXeDatEmphasis0 {
+  color: $black;
+  @include roboto-19-bold;
+}
+.flexWrapperTwo {
+  background-color: $white-smoke;
+  border-radius: 19px;
+  padding: 0 174px 188px 185px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+}
+.group9 {
+  margin-bottom: 29px;
+  padding: 39px 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.relativeWrapperTwo {
+  margin-right: 249.56px;
+  position: relative;
+}
+.tuyenduongTwo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: absolute;
+  right: -248.84px;
+  bottom: -160px;
+}
+.tuyenDuong {
+  height: 30px;
+  width: 249.28px;
+  color: $black;
+  display: flex;
+  align-items: center;
+  @include roboto-19-regular;
+}
+.tuyenduong {
+  height: 304px;
+  width: 249.28px;
+  color: $dark-gray;
+  display: flex;
+  @include roboto-15-regular;
+}
+.tintuc {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+}
+.tinTuc {
+  height: 30px;
+  width: 481.44px;
+  color: $black;
+  display: flex;
+  align-items: center;
+  @include roboto-19-regular;
+}
+.xeGiuongNam {
+  max-width: 433px;
+  color: $dark-gray;
+  @include roboto-15-regular;
+}
+.group17 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.xeLimousine {
+  height: 30px;
+  width: 249px;
+  color: $black;
+  display: flex;
+  align-items: center;
+  @include roboto-19-regular;
+}
+.limousine {
+  height: 304px;
+  width: 249px;
+  color: $dark-gray;
+  display: flex;
+  @include roboto-15-regular;
+}
+.benXe {
+  height: 30px;
+  width: 245px;
+  color: $black;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  @include roboto-19-regular;
+}
+.benxe {
+  max-width: 245px;
+  color: $dark-gray;
+  @include roboto-15-regular;
+}
+.flexWrapperOne {
+  position: relative;
+}
+.conMotDongNhaXeNuaMaLuoiVietQua {
+  color: $black;
+  position: absolute;
+  left: 288px;
+  top: 105px;
+  @include roboto-21-regular;
+}
+.nhaXe {
+  height: 30px;
+  width: 735px;
+  color: $black;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  @include roboto-19-regular;
+}
+.group12 {
+  padding: 0 0 15px;
+  display: flex;
+  align-items: flex-start;
+}
+.relativeWrapperOne {
+  margin-right: 37px;
+  position: relative;
+}
+.hoTro {
+  height: 30px;
+  width: 245px;
+  color: $black;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  right: -37px;
+  top: 0;
+  @include roboto-19-regular;
+}
+.veChungToi {
+  height: 30px;
+  width: 245px;
+  color: $black;
+  display: flex;
+  align-items: center;
+  margin-bottom: 24px;
+  @include roboto-19-regular;
+}
+.phanMemNhaXePhanMemDaiLyGioiThi {
+  max-width: 145px;
+  color: $dark-gray;
+  margin-right: 100px;
+  @include roboto-15-regular;
+}
+.huongDanThanhToanQuyCheVeXeDatMl {
+  max-width: 208px;
+  color: $dark-gray;
+  @include roboto-15-regular;
+}
+.rectangle43 {
+  &:not(:last-of-type) {
+    margin-bottom: 53px;
+  }
+}

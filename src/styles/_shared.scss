@@ -1,0 +1,99 @@
+// This is the project stylesheet
+
+// Colors
+$black: rgba(0, 0, 0, 1);
+$blue: rgba(5, 0, 240, 1);
+$dark-blue: rgba(0, 16, 158, 1);
+$dark-gray: rgba(156, 156, 156, 1);
+$dark-magenta: rgba(124, 6, 153, 1);
+$dark-slate-blue: rgba(59, 72, 185, 1);
+$dim-gray: rgba(116, 116, 116, 1);
+$medium-turquoise: rgba(81, 219, 211, 1);
+$orange: rgba(225, 176, 0, 1);
+$transparent-black: rgba(0, 0, 0, 0.25);
+$transparent-dark-salmon: rgba(241, 157, 157, 0);
+$transparent-khaki: rgba(249, 242, 95, 0);
+$transparent-medium-aquamarine: rgba(101, 194, 200, 0);
+$transparent-white: rgba(255, 255, 255, 0);
+$white: rgba(255, 255, 255, 1);
+$white-smoke: rgba(247, 247, 247, 1);
+
+// Typographies
+@mixin roboto-11-regular {
+  font-family: "Roboto";
+  font-size: 11px;
+  font-weight: 400;
+  line-height: normal;
+}
+@mixin roboto-12-regular {
+  font-family: "Roboto";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: normal;
+}
+@mixin roboto-14-regular {
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: normal;
+}
+@mixin roboto-15-regular {
+  font-family: "Roboto";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: normal;
+}
+@mixin roboto-16-regular {
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
+}
+@mixin roboto-19-bold {
+  font-family: "Roboto";
+  font-size: 19px;
+  font-weight: 700;
+  line-height: normal;
+}
+@mixin roboto-19-regular {
+  font-family: "Roboto";
+  font-size: 19px;
+  font-weight: 400;
+  line-height: normal;
+}
+@mixin roboto-21-regular {
+  font-family: "Roboto";
+  font-size: 21px;
+  font-weight: 400;
+  line-height: normal;
+}
+@mixin roboto-24-regular {
+  font-family: "Roboto";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: normal;
+}
+@mixin roboto-25-regular {
+  font-family: "Roboto";
+  font-size: 25px;
+  font-weight: 400;
+  line-height: normal;
+}
+@mixin roboto-26-regular {
+  font-family: "Roboto";
+  font-size: 26px;
+  font-weight: 400;
+  line-height: normal;
+}
+@mixin roboto-36-bold {
+  font-family: "Roboto";
+  font-size: 36px;
+  font-weight: 700;
+  line-height: normal;
+}
+@mixin sofia-51-regular {
+  font-family: "Sofia";
+  font-size: 51px;
+  font-weight: 400;
+  line-height: normal;
+}
